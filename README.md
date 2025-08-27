@@ -6,8 +6,14 @@ Displays Hello World!
 
 Displays a button that changes "World" to a name that you enter.
 
-Key to this are two specific items:
-1) The body, that is the main HTML, contains a level 1 header that has an ID. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/id
-2) The body will also contain a button with an onclick property that triggers a function that you provide.
-3) The head of the page will contain a script block that contains the function you specified in onclick.
-4) In the function, use "prompt" to get a new name, and then use the DOM editing: "document.getElementById("your id").textContent = "Hello " + name + "!"
+In the html file, you need to change:
+- The function name
+- The function content (there's a line of code there in a comment
+- The ID on level one header (in the h1 tag AND in the function
+- The button tag, to use your function by name AND to put a label on the button
+
+I was able to generate this in Visual Studio Code using one copilot prompt.
+
+If you decide to go that route, add a second button and a second function changes the color of the text.
+
+Once you start, you'll probably notice that Visual Studio Code is willing to give you that code. Make sure you understand what it does!
