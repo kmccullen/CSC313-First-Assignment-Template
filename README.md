@@ -10,7 +10,7 @@ In the html file, you need to change:
 - The function name
 - The function content (there's a line of code there in a comment)
 - The ID on level one header (in the h1 tag AND in the function)
-- The button tag, to use your function by name AND to put a label on the button
+- The button tag, to call your function by name AND to put a label on the button
 
 I was able to generate this in Visual Studio Code using one copilot prompt.
 
