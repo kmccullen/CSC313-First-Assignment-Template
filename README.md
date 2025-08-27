@@ -8,7 +8,7 @@ Displays a button that changes "World" to a name that you enter.
 
 In the html file, you need to change:
 - The function name
-- The function content (there's a line of code there in a comment
+- The function content (there's a line of code there in a comment)
 - The ID on level one header (in the h1 tag AND in the function
 - The button tag, to use your function by name AND to put a label on the button
 
